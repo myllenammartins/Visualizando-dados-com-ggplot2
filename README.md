@@ -11,7 +11,7 @@ O pacote ggplot2 permite criar gráficos de alta qualidade e customizáveis com 
 
 ## Preparação dos dados
 ### Conjunto de dados escolhido
-- Dados dos pinguins do arquipélago Palmer.
+- Dados dos pinguins do arquipélago Palmer, foram levantados de 2007 a 2009 pela Dra. Kristen Gorman, membro do programa Palmer Station Long Term Ecological Research.
 
 ### Etapas
 1. install.packages() para instalar o ggplot2 e o conjunto de dados de Palmer pinguins: install.packages(“ggplot2”) e install.packages(“palmerpenguins”)
@@ -36,3 +36,9 @@ Obtendo o seguinte gráfico:
 ![Captura de tela 2023-11-23 092420](https://github.com/myllenammartins/Visualizando-dados-com-ggplot2/assets/99662544/51183aca-856e-4650-abd8-b395b47335cd)
 
 ***O gráfico mostra uma relação positiva entre as duas variáveis. Em outras palavras, quanto maior o pinguim, mais longa é a nadadeira.***
+
+## Mapear a variável espécies com a estética cor
+Atribuindo uma cor diferente para cada espécie de pinguim:
+
+![Captura de tela 2023-11-23 141055](https://github.com/myllenammartins/Visualizando-dados-com-ggplot2/assets/99662544/5380e46f-4695-4b03-b956-a5eb5fb7595c)
+
